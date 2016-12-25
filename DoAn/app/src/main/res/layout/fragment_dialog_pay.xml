@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_5dp"
+        android:padding="@dimen/padding_5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bảng giá cho một người sửa chữa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_2dp"
+            android:layout_marginRight="@dimen/padding_2dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/padding_2dp"
+                android:layout_weight="2"
+                android:background="@color/colorAccent"
+                android:text="Dịch vụ"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@color/colorAccent"
+                android:text="	Phí cơ bản(VNĐ/Giờ)"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_2dp"
+            android:layout_marginRight="@dimen/padding_2dp"
+            android:layout_marginTop="@dimen/padding_5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/padding_2dp"
+                android:layout_weight="2"
+                android:text="Sửa điện" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="  50.000 VNĐ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_2dp"
+            android:layout_marginRight="@dimen/padding_2dp"
+            android:layout_marginTop="@dimen/padding_5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/padding_2dp"
+                android:layout_weight="2"
+                android:text="Sửa nước" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="  50.000 VNĐ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_2dp"
+            android:layout_marginRight="@dimen/padding_2dp"
+            android:layout_marginTop="@dimen/padding_5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/padding_2dp"
+                android:layout_weight="2"
+                android:text="Sửa chữa các loại" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="  50.000 VNĐ" />
+        </LinearLayout>
+
+        <TextView
+            android:paddingTop="@dimen/padding_5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ghi Chú"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Phụ phí: là phí tính cho những dịch vụ mà khách hàng có những yêu cầu thêm nhưng chưa được xác định trước. Phụ phí này sẽ được nhân viên công ty tư vấn cho quý khách hàng ứng với từng trường hợp cụ thể." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Phí ngoài giờ: là % phí cơ bản, tính cho những dịch vụ mà khách hàng yêu cầu được phục vụ ngoài khung giờ chuẩn. Khung giờ chuẩn của công ty là từ 8 giờ sáng đến 6 giờ chiều." />
+
+        <TextView
+            android:paddingTop="@dimen/padding_5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:text="Chính sách đặc biệt về giá"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Trường hợp quý khách hàng đặt đơn hàng có thời hạn từ 7 đến 15 ngày, quý khách hàng được giảm giá 5% tổng chi phí cho cả đơn hàng." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Trường hợp quý khách hàng đặt đơn hàng có thời hạn hơn 15 ngày, quý khách hàng được giảm giá 10% tổng chi phí cho cả đơn hàng." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Ngoài ra, công ty còn có những mã khuyến mãi sẽ được gửi trực tiếp đến quý khách hàng cho những dịp đặc biệt và/hoặc những khách hàng thân thiết." />
+    </LinearLayout>
+
+</ScrollView>

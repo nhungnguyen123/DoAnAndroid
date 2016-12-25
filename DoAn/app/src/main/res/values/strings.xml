@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">TÌM NGƯỜI SỬA ĐIỆN</string>
+    <string name="confirm_exit">Tap back button again to exit app</string>
+
+
+    <string name="head_all_order">TẤT CẢ ĐƠN ĐẶT HÀNG </string>
+
+    <string name="menu_container_login">Login</string>
+    <string name="menu_container_request">Total Request</string>
+    <string name="menu_container_about_us">About us</string>
+    <string name="menu_container_feedback">Feed back</string>
+    <string name="menu_container_logout">Logout</string>
+
+
+    <!--- API ERROR -->
+    <string name="api_err_no_network">No internet connection</string>
+    <string name="api_err_time_out">Request time out</string>
+    <string name="api_err_unauthorized_error">Unauthorized error</string>
+    <string name="api_err_unknown_error">Unknown error</string>
+    <string name="api_err_not_found">Not found error</string>
+    <string name="api_err_server_error">Server error</string>
+    <string name="api_err_server_change_protocol"> Change Protocol</string>colors
+    <string name="api_err_not_found_information"> Not found information</string>
+
+
+    <!-- fragment choose-->
+
+    <string name="fragment_choose_head">CHỌN CÁC YÊU CẦU ĐẦY ĐỦ  </string>hợp
+    <string name="fragment_choose_district">Chọn quận</string>
+    <string name="fragment_choose_day">Chọn ngày </string>
+    <string name="fragment_choose_time_start">Giờ bắt đầu</string>
+    <string name="fragment_choose_time_end">Giờ kết thúc</string>
+    <string name="fragment_choose_time_type">Chọn dịch vụ</string>
+    <string name="fragment_choose_button_search">Tìm kiếm</string>
+
+
+    <!-- fragment sign up-->
+    <string name="fragment_sign_up_user_name">Nhập Tên của bạn</string>
+    <string name="fragment_sign_up_sdt">Nhập số điện thoại của bạn</string>
+    <string name="fragment_sign_up_email">Email</string>
+    <string name="fragment_sign_up_address">Nhập địa chỉ của bạn</string>
+    <string name="fragment_sign_up_bar_code">Password</string>
+    <string name="fragment_sign_up_mat_khau">Nhập mật khẩu</string>
+    <string name="fragment_sign_up_mat_khau_lan_nua">Nhập mật khẩu xác nhận</string>
+    <string name="fragment_sign_up">Sign Up</string>
+
+
+    <!-- fragment check information-->
+    <string name="check_user_name">Check user name again !</string>
+    <string name="check_password">Check Password again !</string>
+
+
+    <!-- fragment about us-->
+    <string name="fragment_about_us_policy">Chính sách</string>
+    <string name="fragment_about_us_contact">Liên Hệ</string>
+    <string name="fragment_about_us_question_an">Hỏi Đáp</string>
+    <string name="fragment_about_us_pay">Bảng Giá</string>
+    <string name="fragment_about_us_service">Dịch vụ</string>
+
+
+    <!-- item staff-->
+    <string name="item_staff_years">Số năm kinh nghiệm :  </string>
+    <string name="item_staff_description">Mô tả : </string>
+    <string name="item_staff_detail">Chi tiết</string>
+    <string name="item_staff_hide">Thuê</string>
+
+    <!--fragment order-->
+    <string name="fragment_button_create">Create</string>
+
+
+    <!--fragment menu container-->
+    <string name="fragment_menu_dang_nhap">ĐĂNG NHẬP</string>
+    <string name="fragment_menu_dang_xuat">ĐĂNG XUẤT</string>
+
+
+    <!--fragment login-->
+    <string name="fragment_login_head">TÌM NGƯỜI SỬA ĐIỆN</string>
+    <string name="fragment_login_name">Tên đăng nhập</string>
+    <string name="fragment_login">ĐĂNG NHẬP</string>
+    <string name="fragment_dang_nhap_nhan_vien">ĐĂNG NHẬP NHÂN VIÊN</string>
+    <string name="fragment_dang_ky_nhan_vien">ĐĂNG KÝ NHÂN VIÊN</string>
+    <string name="fragment_dang_ky">ĐĂNG KÝ</string>
+    <string name="fragment_doi_pass">THAY ĐỔI  </string>
+    <string name="fragment_doi_pas_khach">THAY ĐỔI KHO KHÁCH </string>
+    <string name="welcome_password">Password</string>
+    <string name="fr_login">CHỈ SỬ DỤNG DỊCH VỤ</string>
+
+
+    <!--fragment dang ky nhan view-->
+    <string name="fm_dang_ky_nhan_vien">ĐĂNG KÝ NHÂN VIÊN</string>
+    <string name="no_internet">No connect internet</string>
+
+
+    <!--item order-->
+    <string name="item_order_ngay">Ngày thực hiện</string>
+    <string name="item_order_ten_tho">Tên thợ:</string>
+    <string name="item_order_ten_khach">Tên khách hàng:</string>
+    <string name="item_order_mo_ta">Mô tả:</string>
+    <string name="item_order_city">Thành phố :</string>
+    <string name="item_order_name_city"> Hồ Chí Minh </string>
+    <string name="item_order_time_ba_dau">Giờ bắt đầu:</string>
+    <string name="item_order_time_ket_thuc">Giờ kết thúc:</string>
+    <string name="item_order_dien_thoai_khach">Sđt khách:</string>
+    <string name="item_order_dien_thoai_tho">Sđt Thợ:</string>
+    <string name="item_order_dia_chi">Địa chỉ:</string>
+    <string name="item_order_service">Dịch vụ: </string>
+    <string name="item_total_pay">Tổng tiền : </string>
+    <string name="item_trang_thai">Trạng thái đơn hàng:</string>
+    <string name="item_order_danh_gia">Đánh giá:</string>
+
+
+    <!--fragment order detail-->
+    <string name="fragment_order_detail">Đơn đặt hàng chi tiết.</string>
+    <string name="fragment_staff_name">Tên nhân viên :</string>
+    <string name="fragment_staff_detail">Chi tiết nhân viên</string>
+    <string name="fragment_staff_description">Chi tiết :</string>
+    <string name="fragment_staff_dender">Giới tính :</string>
+    <string name="fragment_staff_dia_chi">Địa chỉ :</string>
+    <string name="fragment_staff_experience">Kinh nghiệm :</string>
+    <string name="fragment_staff_address">Địa chỉ thợ:</string>
+    <string name="fragment_staff_experience_nam">Năm kinh nghiệm :</string>
+    <string name="fragment_staff_good">Sở trường :</string>
+    <string name="fragment_staff_bid_day">Ngày sinh :</string>
+    <string name="fragment_staff_study">Học vấn :</string>
+    <string name="fragment_staff_review">Đánh giá từ khách hàng:</string>
+    <string name="item_order_district">Quận :</string>
+    <string name="policy">Chính sách công ty</string>
+    <string name="contact">Liên hệ với chúng tôi</string>
+    <string name="bang_gia">Bảng giá</string>
+    <string name="dich_vu">Chúng tôi hân hạnh gửi đến quý khách hàng các dịch vụ sau</string>
+
+
+    <!--fragment change pass-->
+    <string name="fragment_sign_up_mat_khau_moi">Nhập lại mật khẩu mới</string>
+    <string name="nữa">Nhập lại mật khẩu mới lần </string>
+    <string name="head_all_staff">TẤT CẢ NHÂN VIÊN</string>
+    <string name="change_pass">ĐỔI MẬT KHẨU</string>
+</resources>

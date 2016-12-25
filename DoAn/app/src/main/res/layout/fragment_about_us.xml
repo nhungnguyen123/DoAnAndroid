@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/tv_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_5dp"
+        android:padding="@dimen/padding_5dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:text="@string/fragment_about_us_policy" />
+
+    <Button
+        android:id="@+id/tv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="@dimen/padding_5dp"
+        android:padding="@dimen/padding_5dp"
+        android:text="@string/fragment_about_us_contact" />
+
+    <Button
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_5dp"
+        android:padding="@dimen/padding_5dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:text="@string/fragment_about_us_question_an" />
+
+    <Button
+        android:id="@+id/tv_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="@dimen/padding_5dp"
+        android:padding="@dimen/padding_5dp"
+        android:text="@string/fragment_about_us_pay" />
+
+    <Button
+        android:id="@+id/tv_service"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="@dimen/padding_5dp"
+        android:padding="@dimen/padding_5dp"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_about_us_service" />
+</LinearLayout>

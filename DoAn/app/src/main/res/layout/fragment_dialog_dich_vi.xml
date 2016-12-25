@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sửa điện"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sửa các thiết bị điện trong gia đình, công ty, nhà xưởng,...như sửa bóng đèn, sửa đường dây điện, lắp đồng hồ điện, lắp ổ cắm điện, sửa chặp điện,..." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sửa nước"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lắp đặt sửa chữa đường ống nước, lắp đặt máy máy bơm nước, lắp đồng hồ nước, lắp đặt hệ thống nước cho máy giặt, lắp sửa chữa máy nóng lạnh,..." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sửa máy"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sửa các loại máy, máy giặt, máy điều hòa, lò vi sóng, quạt thông gió, máy quạt,..." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vệ sinh"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vệ sinh máy giặt, vệ sinh điều hòa, vệ sinh tủ lạnh, vệ sinh quạt, vệ sinh bồn nước,..." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sửa cửa"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lắp đặt sửa chữa các loại cửa, cửa sổ, cửa chính, cửa kính, cửa cuộn,..." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sửa và lắp hệ thống an ninh"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lắp đặt sửa chữa camera, chuông báo cháy, hệ thống phun nước khi cháy, hệ thống báo trộm,..." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Làm các công việc vặt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giao đồ, hàng hóa, sơn nhà, dọn nhà,..." />
+    </LinearLayout>
+
+</ScrollView>

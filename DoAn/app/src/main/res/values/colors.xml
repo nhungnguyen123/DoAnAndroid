@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34495E</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF9500</color>
+    <color name="back_ground">#2F98AD</color>
+    <color name="color50White">#50FFFFFF</color>
+    <color name="colorGraywhite">#F2F2F2</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBgExplainMenu">#BF000000</color>
+
+
+    <color name="colorBackgroundGardenItem">#e684c504</color>
+    <color name="color_orange">#E67e22</color>
+    <color name="green_garden">#27AE60</color>
+    <color name="colorButtonGreen">#82D40B</color>
+
+    <color name="colorChooseNote">#caf55b</color>
+    <color name="colorAddNewFoodBreakfast">#caf55b</color>
+    <color name="coloAddNewFoodDinner">#ffd45d</color>
+    <color name="colorAddNewFootLunch">#743a3a</color>
+    <color name="colorButtonCancel">#b0b0b0</color>
+    <color name="colorOrderTopBar">#807ed300</color>
+    <color name="colorListClient">#E2E2E2</color>
+    <color name="colorAccept">#b5f47d</color>
+
+    <color name="colorGray">#f9f9f9</color>
+    <color name="colorBgBaseButton">#EEEEEE</color>
+    <color name="colorBorderEditText">#3B6202</color>
+
+    <!--Array List  color for Menu-->
+    <color name="color_menu_red">#EC1C24</color>
+    <color name="color_menu_orange_red">#F15A23</color>
+    <color name="color_menu_orange">#F9891E</color>
+    <color name="color_menu_yellow_orange">#FDB713</color>
+    <color name="colornomal">#F15A23</color>
+    <color name="color_button">#FF9500</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhite80">#90FFFFFF</color>
+    <color name="colorWhite20">#20FFFFFF</color>
+    <color name="colorBack">#000000</color>
+    <color name="colorBack54">#54000000</color>
+    <color name="colorBack30">#30000000</color>
+    <color name="colorWhiteHint">#50FFFFFF</color>
+    <color name="colorWhiteSecondary">#87FFFFFF</color>
+    <color name="colorBgUnderCardView">#EEEEEE</color>
+</resources>

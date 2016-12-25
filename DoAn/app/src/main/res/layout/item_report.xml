@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4">
+            <TextView
+                android:id="@+id/tv_ten_dich_vu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dich Vu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2">
+
+            <TextView
+                android:id="@+id/tv_ngay_lam"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ngay" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7">
+
+            <TextView
+                android:id="@+id/gio_bat_dau"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bat dau" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7">
+
+            <TextView
+                android:id="@+id/tv_gio_ket_thu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ket thuc" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_tien"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="tien" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
